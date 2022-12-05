@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalOcean - The Developer Cloud</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+
+        <!-- NAVBAR -->
+        <div class="nav">
+            <div class="nav-header">
+                <p>
+                    <picture>
+                        <source srcset="./assets/digitalocean.svg" media="(min-width: 768px)">
+                        <img src="./assets/mobile-logo.svg" alt="digitalocean">
+                    </picture>
+                </p>
+                
+                <p onclick="navToggle()" id="nav-ctrl">  
+                    <svg viewBox="0 0 80 40" width="20" height="40">
+                        <rect width="100" height="5"></rect>
+                        <rect y="30" width="100" height="5"></rect>
+                    </svg>
+                </p>
+            </div>
+
+            <nav id="nav-items" class="navbar nav-items">
+                <ul class="nav-menu">
+                    <li id="nav-item" class="nav-item">Products</li>
+                    <li id="nav-item" class="nav-item">Solutions</li>
+                    <li id="nav-item" class="nav-item">Marketplace</li>
+                    <li id="nav-item" class="nav-item">Community</li>
+                    <li id="nav-item" class="nav-item">Pricing</li>
+                </ul>
+    
+                <ul id="mobile-sub-menu" class="nav-menu">
+                    <li class="nav-item btn btn-border">We&apos;re Hiring</li>
+                    <li class="nav-item btn btn-border">Blog</li>
+                    <li class="nav-item btn btn-border">Docs</li>
+                    <li class="nav-item btn btn-border">Get Support</li>
+                    <li class="nav-item btn btn-border">Sales</li>
+                </ul>
+    
+                <div class="auth">
+                    <span class="btn"><b>Log in</b></span>
+                    <span class="btn btn-primary">Sign up</span>
+                </div>       
+            </nav>
+        </div>
+        
+
+        <!-- HERO -->
+        <div id="hero" class="container hero">
+
+            <div class="top-left-cloud">
+                <img src="./assets/top-left-hero-img.svg" alt="top-left-cloud" />
+            </div>
+
+            <div class="top-right-cloud">
+                <img src="./assets/top-right-hero-img.svg" alt="top-right-cloud" />
+            </div>
+
+            <div class="bottom-left-cloud">
+                <img src="./assets/bottom-left-hero-img.svg" alt="bottom-left-cloud" />
+            </div>
+
+            <div class="bottom-right-cloud">
+                <img src="./assets/bottom-right-hero-img.svg" alt="bottom-right-cloud" />
+            </div>
+
+            <div class="hero-content">
+                <h1 class="hero-leading-text">
+                    The simple cloud <br />
+                    that drives <br />
+                    business growth
+                </h1>
+                
+                <div class="hero-subtext">
+                    <p>
+                        Businesses grow faster when developers can build on the simple, affordable cloud they love. 
+                        DigitalOcean has the cloud computing services you need, with predictable pricing, robust documentation, 
+                        and scalability to support your growth at any stage.
+                    </p>
+                </div>
+    
+                <div class="hero-ctas">
+                    <a class="btn hero-cta-btn"> 
+                        <img src="./assets/google-logo.svg" alt="google-logo"> 
+                        <span>Sign up with Google</span>
+                    </a>
+                    <a class="btn hero-cta-btn"> 
+                        <img src="./assets/github-logo.svg" alt="google-logo">
+                        <span>Sign up with GitHub</span>
+                    </a>
+    
+                    <a class="btn hero-cta-btn">Sign up with Email</a>
+                </div>
+            </div>
+            
+            <div class="static-stats-container">
+                <div class="static-stats">
+                    <div class="stat">
+                        <span class="number">15</span>
+                        <span class="stat-text"> Globally distributed data centers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">185</span>
+                        <span class="stat-text"> Countries our customers build in</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number"> > 600k</span>
+                        <span class="stat-text">Customers building with DigitalOcean</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">99.99 %</span>
+                        <span class="stat-text"> Uptime SLA for Droplets and Storage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="explore-products">
+            <div class="container">
+                <h2 class="explore-heading">Do more with less complexity</h2>
+                <p class="explore-text">
+                    Our simple UI, CLI, API, and docs enable you to spend time on your business while we focus on the infrastructure.
+                </p>
+            </div>
+            <div class="explore-cta">
+                Explore our products 
+            </div>
+        </div>
+
+        <!-- OUR CUSTOMERS -->
+        <div id="customers">
+
+        </div>
+
+        <!-- SELLING POINTS -->
+        <div id="selling-points">
+
+        </div>
+
+        <!-- ARTICLES -->
+        <div id="articles">
+
+        </div>
+
+        <footer id="footer">
+
+        </footer>
+    </main>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
