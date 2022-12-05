@@ -123,6 +123,10 @@ body {
 
 @media (max-width: 912px) {
 
+    picture > img {
+        margin: 0 0 15px 0
+    }
+
     .top-left-cloud {
         display: none;
     }
