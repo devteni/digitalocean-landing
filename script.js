@@ -6,7 +6,7 @@ function navToggle() {
 
 // SHOW NAVBAR ON DESKTOP SCREEN
 window.addEventListener("resize", function() {
-    if(window.innerWidth <= 1024) {
+    if(window.innerWidth <= 900) {
         navBar.classList.add('hidden');
     } else {
         navBar.classList.remove('hidden');
