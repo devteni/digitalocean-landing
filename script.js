@@ -11,4 +11,4 @@ window.addEventListener("resize", function() {
     } else {
         navBar.classList.remove('hidden');
     }
-})
+});
