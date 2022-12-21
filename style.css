@@ -40,10 +40,6 @@ body {
     border: 2px solid black
 }
 
-.hidden {
-    display: none !important;
-}
-
 .nav-header {
     display: flex;
     flex-direction: row;
@@ -125,6 +121,11 @@ body {
 
     picture > img {
         margin: 0 0 15px 0
+    }
+
+    
+    .hidden {
+        display: none !important;
     }
 
     .top-left-cloud {
@@ -280,6 +281,10 @@ body {
         text-rendering: optimizeLegibility;
         margin: 0;
         overflow-x: hidden
+    }
+
+    .hidden {
+        display: none !important;
     }
 
     .hero {
@@ -444,6 +449,9 @@ body {
         text-rendering: optimizeLegibility;
         margin: 0;
         overflow-x: hidden
+    }
+
+    .hidden {
     }
     
     .container {
